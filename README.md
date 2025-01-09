@@ -9,6 +9,11 @@ manage servers or clusters.
 OpenStack Zun virtual-kubelet provider connects your Kubernetes cluster to an OpenStack Cloud.
 Your pods on OpenStack have access to OpenStack tenant networks since each pod is given
 dedicated Neutron ports in your tenant subnets.
+## install 
+
+rm -f go.sum
+go mod tidy
+make build
 
 ## Prerequisites
 
