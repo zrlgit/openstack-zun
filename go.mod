@@ -56,3 +56,5 @@ replace k8s.io/sample-apiserver => k8s.io/sample-apiserver v0.0.0-20190805142637
 replace k8s.io/code-generator => k8s.io/code-generator v0.0.0-20190612205613-18da4a14b22b
 
 replace k8s.io/client-go => k8s.io/client-go v0.0.0-20190805141520-2fe0317bcee0
+
+replace vbom.ml/util => github.com/fvbommel/util v0.0.0-20180919145318-efcd4e0f9787
