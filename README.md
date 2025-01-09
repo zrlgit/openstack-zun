@@ -12,7 +12,9 @@ dedicated Neutron ports in your tenant subnets.
 ## install 
 
 rm -f go.sum
+
 go mod tidy
+
 make build
 
 ## Prerequisites
